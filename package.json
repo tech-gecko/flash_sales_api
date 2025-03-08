@@ -1,0 +1,44 @@
+{
+  "name": "flash_sales_api",
+  "version": "1.0.0",
+  "description": "A complete flash sales system built using MongoDB, Mongoose and Express.js (amongst other minor dependencies).",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha tests/**/*.test.js --timeout 10000",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tech-gecko/flash_sales_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tech-gecko/flash_sales_api/issues"
+  },
+  "homepage": "https://github.com/tech-gecko/flash_sales_api#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "node-schedule": "^2.1.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "chai-http": "^5.1.1",
+    "mocha": "^11.1.0",
+    "nodemon": "^3.1.9",
+    "sinon": "^19.0.2"
+  }
+}
