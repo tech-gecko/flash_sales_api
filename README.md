@@ -174,7 +174,7 @@ The system follows a **layered architecture**:
 
 ## **License**
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/tech-gecko/flash_sales_api/LICENSE) file for details.  
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/tech-gecko/flash_sales_api/blob/main/LICENSE) file for details.  
 ---
 
 ## **Acknowledgments**
